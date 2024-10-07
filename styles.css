@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap');
+
+:root{
+    --font-monkey:"Happy Monkey", system-ui;
+    --rosa:#FFAFCC;
+    --azul:#A2D2FF;
+    --roxo:#CDB4DB;
+    --white:#ffffff;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    font-family: var(--font-monkey);
+    text-align: center;
+    font-size: 1rem;
+    background: linear-gradient(#A2D2FF,#CDB4DB);
+    color: var(--white);
+    
+}
+#header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem 0;
+    text-shadow: 0px 0px 5px var(--roxo);
+    
+  
+}
+h1,h2,h3,h4,p{
+    text-shadow: 0px 0px 5px var(--rosa);
+}
+.subtitulo, .aniversario{
+    background: var(--roxo);
+    margin: 1rem;
+    padding: 0.5rem;
+}
+.subtitulo{
+    font-size: 1.5rem;
+    border-radius: 0.5rem;
+    padding: 1rem;
+}
+.aniversario{
+    margin: 0.5rem;
+    font-size: 1rem;
+    border-radius: 0.3rem;
+    padding: 0.5rem;
+}
+.titulo{
+    font-size: 2.25rem;
+   
+}
+#patricia-photo{
+    width: 20rem;
+    margin: 2rem 0;
+    border: 1rem solid var(--roxo);
+    border-radius: 55%;
+}
+.subtitulo{
+    margin-bottom: 0.5rem;
+}
+
+.gift{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.titulo2{
+    margin:1rem;
+}
+.image-gift {
+    margin: 0.8rem;
+    background-image: url(./img/gift.jpg);
+    width: 25rem;
+    height: 25rem;
+    background-size: cover;
+    border: 0.5rem solid var(--rosa);
+    border-radius: 10%;
+
+}
+#gift6{
+    height: 12.5rem;
+}
+#gift1:hover{
+    background-image: url(./img/birthday.webp);
+}
+#gift2:hover{
+    background-image: url(./img/sad.webp);
+}
+#gift3:hover{
+    background-image: url(./img/happy.webp);
+}
+#gift4:hover{
+    background-image: url(./img/loveu.webp);
+}
+#gift5:hover{
+    background-image: url(./img/hamburguer.webp);
+}
+#gift6:hover{
+    background-image: url(./img/eating.webp);
+}
+#kathy1:hover{
+    background-image: url(./img/katy.jpg);
+}
+#footer{
+    font-size: 2rem;
+    font-style: italic;
+    padding: 3rem;
+}
